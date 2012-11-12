@@ -1,3 +1,5 @@
+require 'berkshelf/vagrant'
+
 Vagrant::Config.run do |config|
   config.vm.define :echelon do |echelon|
     echelon.vm.customize do |vm|
